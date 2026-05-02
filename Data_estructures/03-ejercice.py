@@ -44,4 +44,4 @@ acum = 0
 for diccionario in dictionary_list:
     acum += diccionario['touchdowns'] 
 
-print(f'Total {acum/len(dictionary_list)}')
+print(f'Promedio de Touchdowns: {acum/len(dictionary_list)}')
